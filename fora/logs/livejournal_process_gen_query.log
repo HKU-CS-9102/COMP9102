@@ -1,0 +1,14 @@
+nohup: ignoring input
+[0;32m--------------start------------2022-04-29 23:26:22[0m
+[0;32margs:generate-ss-query --algo fora --prefix ./data/ --dataset livejournal --query_size 1000 [0m
+action: generate-ss-query
+config.version=vector 
+config.action=generate-ss-query 
+sub constructor 
+init graph n: 4846610 m: 68475391
+graph.n=4846610 graph.m=68475391 
+### Timer 
+[0;31m--------------stop------------2022-04-29 23:26:22[0m
+
+
+

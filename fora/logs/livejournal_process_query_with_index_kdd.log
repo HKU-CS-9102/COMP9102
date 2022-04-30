@@ -1,0 +1,115 @@
+nohup: ignoring input
+[0;32m--------------start------------2022-04-29 23:41:12[0m
+[0;32margs:query --algo fora --prefix ./data/ --dataset livejournal --epsilon 0.5 --query_size 20 --with_idx [0m
+action: query
+config.epsilon=0.5 
+config.version=vector 
+config.action=query 
+sub constructor 
+init graph n: 4846610 m: 68475391
+load graph finish 
+init parameters graph.n=4846610 
+finished initing parameters 
+graph.n=4846610 graph.m=68475391 
+Index file name: file_name=./data/livejournal/randwalks.idx 
+config.algo=fora 
+query_size=20 
+config.rmax_scale=1 
+config.delta=2.0633e-07 
+config.pfail=2.0633e-07 
+config.rmax=3.95081e-09 
+config.omega=7.79671e+08 
+1. source node:2791563
+config.omega=7.79671e+08 config.omega*rsum=4.65778e+07 rsum=0.0597403 
+Total random walk time:  duration/TIMES_PER_SEC=0.651426 
+----------------------------- 
+2. source node:3102125
+config.omega=7.79671e+08 config.omega*rsum=5.25665e+07 rsum=0.0674214 
+Total random walk time:  duration/TIMES_PER_SEC=0.71528 
+----------------------------- 
+3. source node:4637287
+config.omega=7.79671e+08 config.omega*rsum=2.09046e+07 rsum=0.0268121 
+Total random walk time:  duration/TIMES_PER_SEC=0.356992 
+----------------------------- 
+4. source node:2372838
+config.omega=7.79671e+08 config.omega*rsum=0 rsum=0 
+Total random walk time:  duration/TIMES_PER_SEC=0.00393389 
+----------------------------- 
+5. source node:4058798
+config.omega=7.79671e+08 config.omega*rsum=3.9736e+07 rsum=0.0509651 
+Total random walk time:  duration/TIMES_PER_SEC=0.575371 
+----------------------------- 
+6. source node:4243944
+config.omega=7.79671e+08 config.omega*rsum=5.72141e+07 rsum=0.0733823 
+Total random walk time:  duration/TIMES_PER_SEC=0.776991 
+----------------------------- 
+7. source node:969722
+config.omega=7.79671e+08 config.omega*rsum=6.52926e+07 rsum=0.0837438 
+Total random walk time:  duration/TIMES_PER_SEC=0.924772 
+----------------------------- 
+8. source node:847795
+config.omega=7.79671e+08 config.omega*rsum=7.2537e+07 rsum=0.0930354 
+Total random walk time:  duration/TIMES_PER_SEC=1.00429 
+----------------------------- 
+9. source node:4783087
+config.omega=7.79671e+08 config.omega*rsum=3.46427e+07 rsum=0.0444324 
+Total random walk time:  duration/TIMES_PER_SEC=0.496135 
+----------------------------- 
+10. source node:2065559
+config.omega=7.79671e+08 config.omega*rsum=6.83937e+07 rsum=0.0877212 
+Total random walk time:  duration/TIMES_PER_SEC=0.944597 
+----------------------------- 
+11. source node:137692
+config.omega=7.79671e+08 config.omega*rsum=5.8154e+07 rsum=0.0745878 
+Total random walk time:  duration/TIMES_PER_SEC=0.800551 
+----------------------------- 
+12. source node:3014194
+config.omega=7.79671e+08 config.omega*rsum=6.26628e+07 rsum=0.0803708 
+Total random walk time:  duration/TIMES_PER_SEC=0.871683 
+----------------------------- 
+13. source node:423071
+config.omega=7.79671e+08 config.omega*rsum=6.28309e+07 rsum=0.0805864 
+Total random walk time:  duration/TIMES_PER_SEC=0.862537 
+----------------------------- 
+14. source node:3472177
+config.omega=7.79671e+08 config.omega*rsum=3.2442e+07 rsum=0.0416099 
+Total random walk time:  duration/TIMES_PER_SEC=0.490175 
+----------------------------- 
+15. source node:4121160
+config.omega=7.79671e+08 config.omega*rsum=5.03302e+07 rsum=0.0645531 
+Total random walk time:  duration/TIMES_PER_SEC=0.688291 
+----------------------------- 
+16. source node:3716512
+config.omega=7.79671e+08 config.omega*rsum=6.09171e+07 rsum=0.0781317 
+Total random walk time:  duration/TIMES_PER_SEC=0.837273 
+----------------------------- 
+17. source node:2191745
+config.omega=7.79671e+08 config.omega*rsum=6.39545e+07 rsum=0.0820275 
+Total random walk time:  duration/TIMES_PER_SEC=0.948795 
+----------------------------- 
+18. source node:1940842
+config.omega=7.79671e+08 config.omega*rsum=5.78579e+07 rsum=0.0742081 
+Total random walk time:  duration/TIMES_PER_SEC=0.815323 
+----------------------------- 
+19. source node:1892649
+config.omega=7.79671e+08 config.omega*rsum=6.21919e+07 rsum=0.0797669 
+Total random walk time:  duration/TIMES_PER_SEC=0.876136 
+----------------------------- 
+20. source node:2170986
+config.omega=7.79671e+08 config.omega*rsum=5.27536e+07 rsum=0.0676613 
+Total random walk time:  duration/TIMES_PER_SEC=0.747607 
+----------------------------- 
+avg_rsum*config.omega=4.08784e+07 
+Total cost (s): 73.5558
+19.0022% for random walk cost
+80.4355% for forward push cost
+----------------------------- 
+Average rand-walk idx hit ratio: 100%
+Average query time (s):3.67779
+Memory usage (MB):2265.32
+
+finished query 
+### Timer 
+t=   3  73.555785  
+t=   5  59.164949  
+t=   6  13.977214  

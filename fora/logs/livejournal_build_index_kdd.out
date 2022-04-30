@@ -1,0 +1,29 @@
+nohup: ignoring input
+[0;32m--------------start------------2022-04-29 23:18:59[0m
+[0;32margs:build --prefix ./data/ --dataset livejournal --epsilon 0.5 [0m
+action: build
+config.epsilon=0.5 
+config.version=vector 
+config.action=build 
+sub constructor 
+init graph n: 4846610 m: 68475391
+load graph finish 
+init parameters graph.n=4846610 
+finihsed initing parameters 
+graph.n=4846610 graph.m=68475391 
+tuned_index_size=213717247 
+rand-walking... 
+config.rmax=3.95081e-09 config.omega=7.79671e+08 config.rmax*config.omega=3.08033 
+original_index_size=213717247 tuned_index_size=213717247 original_index_size*1.0/tuned_index_size=1 
+materializing... 
+rw_idx.size()=213717247 rw_idx_info.size()=4846610 
+Memory usage (MB):2134.65
+
+### Timer 
+t=   0  143.848547  
+t=   1  141.345285  
+t=   2  2.475219  
+[0;31m--------------stop------------2022-04-29 23:21:53[0m
+
+
+
